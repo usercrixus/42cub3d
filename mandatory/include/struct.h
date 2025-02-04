@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   struct.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: achaisne <achaisne@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mcogne-- <mcogne--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 19:34:09 by mcogne--          #+#    #+#             */
-/*   Updated: 2025/02/03 19:40:44 by achaisne         ###   ########.fr       */
+/*   Updated: 2025/02/04 18:06:41 by mcogne--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,7 +91,6 @@ typedef struct textures
 	char			*path_ea;
 	char			*path_bot;
 	char			*path_top;
-	// wall
 	t_texture		no;
 	t_texture		so;
 	t_texture		we;
@@ -99,12 +98,10 @@ typedef struct textures
 	t_texture		top;
 	t_texture		bot;
 	t_texture		bot_blood;
-	// door
 	t_texture		door_no;
 	t_texture		door_so;
 	t_texture		door_we;
 	t_texture		door_ea;
-	// hub
 	t_texture		weapon_off;
 	t_texture		weapon_on;
 	t_texture		hud_border_map;
@@ -114,10 +111,8 @@ typedef struct textures
 	t_texture		hud_stamina;
 	t_texture		hud_stamina_rod;
 	t_texture		hud_bam;
-	// sprite
 	t_texture		musk[5];
 	t_texture		monster[4];
-	// menu
 	t_texture		menu_start;
 	t_texture		menu_end;
 	t_texture		menu_happy_end;

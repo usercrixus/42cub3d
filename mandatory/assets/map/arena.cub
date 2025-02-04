@@ -1,10 +1,14 @@
 NO ./assets/texture/TOP.xpm
-SO ./assets/texture/TOP.xpm
+SO   ./assets/texture/TOP.xpm
 WE ./assets/texture/TOP.xpm
-EA ./assets/texture/TOP.xpm
+EA   ./assets/texture/TOP.xpm
 
-F ./assets/texture/TOP.xpm
-C ./assets/texture/TOP.xpm
+	   	 	 	
+
+F 220,100,0
+C      225,30,0
+
+
 
      111
      1S1
@@ -15,7 +19,7 @@ C ./assets/texture/TOP.xpm
 11111101111111
 10000000000001
 10000000000001
-10022022022001
 10000000000001
-10000030000001
+10000000000001
+10000000000001
 11111111111111

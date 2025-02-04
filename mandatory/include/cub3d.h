@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   cub3d.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: achaisne <achaisne@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mcogne-- <mcogne--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 18:14:34 by mcogne--          #+#    #+#             */
-/*   Updated: 2025/02/02 13:13:23 by achaisne         ###   ########.fr       */
+/*   Updated: 2025/02/04 17:56:46 by mcogne--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,10 @@
 # include "path_textures.h"
 # include "ray_casting.h"
 # include "struct.h"
+# include <errno.h>
 # include <fcntl.h>
 # include <math.h>
-# include <errno.h>
-# include <pthread.h> 
+# include <pthread.h>
 
 /*******************************/
 /*          ENV - MAIN         */
@@ -135,6 +135,7 @@ int			is_inferior(int a, int b);
 double		trigo_get_angle(double sprite_dy, double sprite_dx);
 double		trigo_get_hypotenuse_len(double sprite_dy, double sprite_dx);
 void		ft_mlx_destroy_image(t_env *env, void *ptr);
+short		check_mob(t_map *map);
 
 /*******************************/
 /*          DEBUG MODE         */

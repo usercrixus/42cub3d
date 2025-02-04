@@ -73,6 +73,7 @@ SRC = main.c \
 		utils/player_adjacent_door.c \
 		utils/trigonometry.c \
 		utils/ft_mlx_destroy_image.c \
+		utils/check_mob.c \
 \
 		debug/debug_parsing.c
 

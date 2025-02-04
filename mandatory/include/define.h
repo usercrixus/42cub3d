@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   define.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: achaisne <achaisne@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mcogne-- <mcogne--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 22:55:40 by mcogne--          #+#    #+#             */
-/*   Updated: 2025/02/03 19:39:43 by achaisne         ###   ########.fr       */
+/*   Updated: 2025/02/04 18:07:48 by mcogne--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,17 +25,17 @@
 # define WIN_TITLE "Cub3D - @UserCrixus & @MathysCogne"
 # define WIN_WIDTH 1280
 # define WIN_HEIGHT 720
-# define RESH (1280 / 2)
-# define RESV (720 / 2)
-# define VERTICAL_FIX ((720 / 2) * 3 / 180)
+# define RESH 640
+# define RESV 360
+# define VERTICAL_FIX 6
 
 # define TICK_SPEED 100
 
 /*******************************/
 /*            GAME             */
 /*******************************/
-# define MOVE_SPEED 0.02
-# define SPRINT_SPEED 0.04
+# define MOVE_SPEED 0.04
+# define SPRINT_SPEED 0.08
 # define MOVE_COLISION "19"
 # define ANGLE_SPEED 4
 # define MOUSE_SPEED 0.02
@@ -66,8 +66,8 @@
 
 # define CARAC_DOOR_CO "98"
 # define CARAC_ENNEMY "23"
-# define CARAC_MAP " 0123NSEW9"
-# define CARAC_MAP_NO_SPACE "0123NSEW9"
+# define CARAC_MAP " 01NSEW"
+# define CARAC_MAP_NO_SPACE "01NSEW"
 # define CARAC_PLAYER_VOID "023NSEW9"
 
 # define MIN_RGB -1

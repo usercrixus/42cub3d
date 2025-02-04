@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   hud_stats_player.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: achaisne <achaisne@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mcogne-- <mcogne--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/27 23:39:16 by mcogne--          #+#    #+#             */
-/*   Updated: 2025/02/02 13:14:49 by achaisne         ###   ########.fr       */
+/*   Updated: 2025/02/04 17:55:47 by mcogne--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ static void	check_status_game(t_env *env, t_map *map)
 {
 	if (map->player.pv <= 0)
 		env->event->menu_died = 1;
-	if (map->sprites_size == 0 && map->player.pv > 0)
+	if (map->sprites_size == 0 && map->player.pv > 0 && check_mob(map))
 		env->event->menu_happy_end = 1;
 }
 

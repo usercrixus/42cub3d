@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   define.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: achaisne <achaisne@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mcogne-- <mcogne--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 22:55:40 by mcogne--          #+#    #+#             */
-/*   Updated: 2025/02/02 10:30:37 by achaisne         ###   ########.fr       */
+/*   Updated: 2025/02/04 18:15:18 by mcogne--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,17 +25,17 @@
 # define WIN_TITLE "Cub3D - @UserCrixus & @MathysCogne"
 # define WIN_WIDTH 1280
 # define WIN_HEIGHT 720
-# define RESH (1280 / 2)
-# define RESV (720 / 2)
-# define VERTICAL_FIX ((720 / 2) * 3 / 180)
+# define RESH 640
+# define RESV 360
+# define VERTICAL_FIX 6
 
 # define TICK_SPEED 100
 
 /*******************************/
 /*            GAME             */
 /*******************************/
-# define MOVE_SPEED 0.02
-# define SPRINT_SPEED 0.04
+# define MOVE_SPEED 0.04
+# define SPRINT_SPEED 0.08
 # define MOVE_COLISION "19"
 # define ANGLE_SPEED 4
 # define MOUSE_SPEED 0.02
