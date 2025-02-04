@@ -6,19 +6,19 @@
 /*   By: mcogne-- <mcogne--@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/18 15:45:00 by mcogne--          #+#    #+#             */
-/*   Updated: 2025/01/28 19:49:41 by mcogne--         ###   ########.fr       */
+/*   Updated: 2025/02/04 18:17:51 by mcogne--         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "cub3d.h"
 
+//mlx_mouse_hide(env->mlx->id, env->mlx->win);
 static int	click_mouse_event(int keycode, int h, int v, t_env *env)
 {
 	(void)h, (void)v;
 	if (keycode && !env->event->capture_mouse)
 	{
 		env->event->capture_mouse = 1;
-		mlx_mouse_hide(env->mlx->id, env->mlx->win);
 	}
 	if (keycode == KEY_MOUSE_RIGHT)
 	{
