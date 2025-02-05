@@ -1,4 +1,4 @@
-NAME = cub3D
+NAME = ../cub3D_bonus
 
 SRCDIR = src
 OBJDIR = obj
